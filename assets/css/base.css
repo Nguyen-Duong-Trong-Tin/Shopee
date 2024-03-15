@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap');
+
+:root {
+  --color-one: #F84B2F;
+  
+  --color-text-one: #333333;
+  --color-text-two: #757575;
+  --color-text-three: #FCC7C0;
+
+  --font: "Geologica", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: var(--font);
+  color: var(--color-text-one);
+  overflow-x: hidden;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Button */
+.button {
+  width: 70px;
+  height: 40px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.button-search {
+  background-color: var(--color-one);
+}
+/* End Button */
